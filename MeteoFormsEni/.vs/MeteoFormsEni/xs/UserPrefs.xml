@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{73888885-7922-4C52-95DD-0E2D2940B29E}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MeteoFormsEni/MainPage.xaml.cs">
+    <Files>
+      <File FileName="MeteoFormsEni/MainPage.xaml" Line="29" Column="35" />
+      <File FileName="MeteoFormsEni/MainPage.xaml.cs" Line="56" Column="74" />
+      <File FileName="MeteoFormsEni/App.xaml" Line="17" Column="59" />
+      <File FileName="MeteoFormsEni/Services/OpenweatherService.cs" Line="19" Column="1" />
+      <File FileName="MeteoFormsEni/Models/OpenWeatherMap.cs" Line="14" Column="30" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MeteoFormsEni" expanded="True">
+            <Node name="MeteoFormsEni" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True">
+                <Node name="MainPage.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="MeteoFormsEni.Android" expanded="True" />
+            <Node name="MeteoFormsEni.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.MeteoFormsEni.Android PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.MeteoFormsEni.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A58B7B89-17D9-4A85-BC0F-5E7B132E6119" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

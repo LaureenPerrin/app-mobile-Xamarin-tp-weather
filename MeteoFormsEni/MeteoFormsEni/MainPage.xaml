@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    x:Class="MeteoFormsEni.MainPage">
+    <StackLayout>
+
+        <StackLayout Orientation="Horizontal" 
+                     Padding="10"
+                     BackgroundColor="#98cb00">
+            <Entry x:Name="city"
+                   Placeholder="Entrez une ville"
+                   HorizontalOptions="FillAndExpand"
+                   BackgroundColor="White"
+                   TextColor="Black"/>
+
+            <Button Text="OK"
+                    x:Name="submit"
+                    Clicked="Submit_Clicked"
+                    Style="{StaticResource buttonSubmit}"
+                    />
+        </StackLayout>
+
+        
+        <StackLayout
+                     Padding="10">
+            <Label 
+               Style="{StaticResource labelResult}" 
+               x:Name="resultat"
+               HorizontalOptions="Center"/>
+
+            <Image
+                x:Name="imageIcon"
+                HorizontalOptions="Center" />
+
+            <ActivityIndicator 
+                Color="Red"
+                IsRunning="{Binding Source={x:Reference imageIcon}, 
+                Path=IsLoading}"
+                />
+            
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
